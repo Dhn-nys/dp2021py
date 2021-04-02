@@ -1,0 +1,11 @@
+# Modul 2 - Slide 12
+print("Data Diri Mahasiswa".center(50))
+print("-------------------------------".center(50))
+nim=input("Masukan NIM Anda : ")
+nama=input("Masukan Nama Anda : ")
+jurusan=str(input("Jurusan : "))
+alamat=str(input("Alamat : "))
+print("-------------------------------".center(50))
+print("Hasil cetak data diatas adalah : ")
+print("Nim anda adalah : " +nim, "dengan nama : " +nama)
+print("Jurusan anda : " +jurusan, "anda berasal dari : "+alamat)
